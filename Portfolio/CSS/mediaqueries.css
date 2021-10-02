@@ -1,0 +1,168 @@
+@charset "utf-8";
+
+/*================= MEDIA QUERIES =================*/
+
+@media(max-width: 1200px){
+
+    /*==== General ====*/
+
+    body{
+        width: 100%;
+        font: 16px/19px Lato, Tahoma, sans-serif;
+    }
+
+    .main-header .header-info .header-content h1{
+        font-size: 30px;
+        margin: 10px 0;
+    }
+
+    /*=== section-header ===*/
+
+    .section-header{
+        margin: 40px 0;
+        padding: 15px;
+    }
+    .section-header .h-section{
+        font-size: 30px;
+    }
+
+    /*==== Education ====*/
+
+    .tech-col{
+        display: block;
+    }
+
+    /*==== Contact ====*/
+
+    .contact-info{
+        display: block;
+        justify-content: center;
+    }
+
+    .contact-info div{
+        margin: 15px auto;
+    }
+    .my-form .form-input{
+        display: block;
+    }
+
+    input[type=text],
+    input[type=email]{
+        margin: 20px 0;
+    }
+
+    #message{
+        margin-top: 20px;
+    }
+
+    textarea{
+        width: 80%;
+        height: 150px;
+        font-size: 16px;
+    }
+
+}
+
+@media(max-width: 790px){
+
+/*==== General ====*/
+
+    body{
+        width: 100%;
+        font: 16px/19px Lato, Tahoma, sans-serif;
+    }
+
+/*=== section-header ===*/
+
+    .section-header{
+        margin: 40px 0;
+        padding: 15px;
+    }
+    .section-header .h-section{
+        font-size: 30px;
+    }
+
+/*=== section-content ===*/
+
+    .content{
+        margin: 0;
+    }
+
+    .content p{
+        margin: 10px 0 10px 0;
+        font-size: 16px;
+    }
+
+    .content h3{
+        padding: 10px;
+        margin: 20px 0 10px 0;
+        font-size: 25px;
+    }
+
+/*==== Header ====*/
+
+    .main-header .header-info{
+        padding: 0;
+        display: block;
+    }
+
+    .main-header .header-info .header-content{
+        width: 100%;
+        margin: 0;
+    }
+
+    .main-header .header-info .header-content h1{
+        font-size: 30px;
+        margin: 10px 0;
+    }
+
+    .main-header .header-info .header-img{
+        width: 100%;
+    }
+
+    .main-header .header-info .header-img img{
+        margin: 0;
+    }
+
+    .scroll{
+        display: none;
+    }
+
+/*==== Education ====*/
+
+    .tech-col{
+        display: block;
+    }
+
+/*==== Contact ====*/
+
+    .contact-info{
+        display: block;
+        justify-content: center;
+    }
+
+    .contact-info div{
+        margin: 15px auto;
+    }
+
+    .my-form .form-input{
+        display: block;
+    }
+
+    input[type=text],
+    input[type=email]{
+        margin: 20px 0;
+    }
+
+    #message{
+        margin-top: 20px;
+    }
+
+    textarea{
+        width: 80%;
+        height: 150px;
+        font-size: 16px;
+    }
+
+
+}

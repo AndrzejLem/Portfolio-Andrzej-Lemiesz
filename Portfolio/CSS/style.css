@@ -1,0 +1,251 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+/*============= GENERAL =============*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 80%;
+    margin: 0 auto;
+    font: 19px/26px Lato, Tahoma, sans-serif;
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+    background-color: #444;
+}
+
+.container{
+    min-height: 100vh;
+}
+
+/*=== section-header ===*/
+
+.section-header{
+    margin: 80px 0;
+    padding: 40px;
+    text-align: center;
+    border-left: 1px #fff solid;
+    border-right: 1px #fff solid;
+    border-radius: 15px;
+    color:#4089FF;
+}
+.section-header .h-section{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 50px;
+}
+
+/*=== section-content ===*/
+
+.content{
+    margin: 80px;
+    text-align: center;
+    line-height: 2;
+    letter-spacing: 2px;
+    font-size: 18px;
+}
+
+.content p{
+    margin: 30px 0 20px 0;
+}
+
+.content h3{
+    padding: 20px;
+    margin: 30px 0 10px 0;
+    font-size: 30px;
+    color: #87D0FF;
+}
+
+/*=== button ===*/
+
+.btn{
+    border: none;
+    border-radius: 15px;
+    padding: 10px;
+    width: 150px;
+    background-color: #4089FF;
+    color: #fff;
+    font-weight: bold;
+}
+
+.btn:hover{
+    background-color: #2068DD;
+    cursor: pointer;
+}
+
+/*============= HEADER =============*/
+
+
+.main-header{
+    line-height: 1.5;
+    min-height: 100vh;
+    text-align: center;
+    position: relative;
+}
+
+/*=== topbar ===*/
+
+/*=== header-info ===*/
+
+.main-header .header-info{
+    padding-top: 60px;
+    display: flex;
+}
+
+.main-header .header-info .header-content{
+    width: 50%;
+    padding: 30px;
+    margin-top: 150px;
+}
+
+.main-header .header-info .header-content h1{
+    margin: 40px 0;
+    padding: 15px;
+    color: #666;
+    font-size: 60px;
+    border-bottom: 2px solid #666;
+    border-radius: 15px;
+    color: #fff;
+    letter-spacing: 3px;
+}
+
+.main-header .header-info .header-content p{
+    margin: 100px 0;
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+
+.name{
+    color:#4089FF;
+}
+
+.main-header .header-info .header-img{
+    width: 50%;
+}
+
+.main-header .header-info .header-img img{
+    align-items: center;
+    margin-top: 200px;
+    border: 2px solid #4089FF;
+    border-radius: 50%;
+}
+
+.main-header .scroll{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    width: 100px;
+}
+
+/*============= MAIN =============*/
+
+.main{
+    margin: 20px;
+}
+
+/*============= ABOUT ME =============*/
+
+
+
+/*============= EDUCATION =============*/
+
+.tech-col{
+    display: flex;
+    flex-direction: row;
+}
+
+.tech-col h3{
+    font-size: 25px;
+    padding: 20px;
+    color:#4089FF;
+}
+.tech-col .tech{
+    list-style-type: none;
+    padding: 20px;
+}
+
+.tech-col .tech .tech-li{
+    color: #87D0FF;
+}
+
+.content a{
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+/*============= PORTFOLIO =============*/
+
+
+/*============= HOBBY =============*/
+
+
+/*============= CONTACT =============*/
+
+.contact-info{
+    display: flex;
+    justify-content: center;
+}
+
+.info{
+    border: 1px solid #fff;
+    border-radius: 15px;
+    width: 300px;
+    margin: 15px 15px 50px 15px;
+    padding: 15px;
+}
+
+.info-name{
+    color:#4089FF;
+}
+
+.my-form label{
+    margin: 15px;
+}
+
+.my-form .form-input{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.my-form  label{
+    border-bottom: 1px solid #fff;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 20px;
+}
+
+input[type=text]{
+    width: 250px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+input[type=email]{
+    width: 250px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+#message{
+    margin-top: 50px;
+}
+
+textarea{
+    width: 500px;
+    height: 250px;
+    font-size: 18px;
+    margin-top: 50px;
+}
+
+/*============= FOOTER =============*/
+
+.footer{
+    text-align: center;
+    border-top: 1px solid #fff;
+    padding-top: 20px;
+}
