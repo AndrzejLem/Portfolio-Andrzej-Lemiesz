@@ -1,3 +1,4 @@
+@charset "utf-8";
 /*========= Menu button =========*/
 
 .main-header .menu-btn{
@@ -46,7 +47,7 @@
     top: 0;
     right: 0;
     width: 100%;
-    opacity: 0.9;
+    opacity: 0.8;
     visibility: hidden;;
 }
 
