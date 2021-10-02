@@ -13,7 +13,6 @@ I learn the following technologies:
 * HTML 5
 * CSS 3
 * JavaScript
-* SASS, LESS
 
 
 PLEASE VISIT MY WEBSITE.
