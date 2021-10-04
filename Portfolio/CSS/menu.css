@@ -3,7 +3,7 @@
 
 .main-header .menu-btn{
     position: fixed;
-    z-index: 3;
+    z-index: 2;
     top: 0;
     right: 0;
     padding: 10px 20px;
@@ -12,6 +12,7 @@
 }
 
 .main-header .menu-btn .btn-line{
+    z-index: 3;
     width: 25px;
     height: 3px;
     background-color: #fff;
@@ -48,7 +49,7 @@
     right: 0;
     width: 100%;
     opacity: 0.8;
-    visibility: hidden;;
+    visibility: hidden;
 }
 
 .main-header .menu .show{
@@ -67,6 +68,7 @@
     background: #555;
     transform: translate3d(0, -100%, 0);
     transition: all 0.5s ease-out;
+    z-index: 3;
 }
 
 /*========= Slide in from top =========*/

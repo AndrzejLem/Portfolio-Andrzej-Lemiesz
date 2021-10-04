@@ -2,6 +2,8 @@
 
 /*================= MEDIA QUERIES =================*/
 
+
+
 @media(min-width: 791px) and (max-width: 1200px){
 
     /*==== General ====*/
@@ -14,6 +16,10 @@
     .main-header .header-info .header-content h1{
         font-size: 30px;
         margin: 10px 0;
+    }
+
+    .scroll{
+        visibility: hidden;
     }
 
     /*=== section-header ===*/
@@ -30,6 +36,18 @@
 
     .tech-col{
         display: block;
+    }
+
+    /*==== Portfolio ====*/
+
+    .projects{
+        display: block;
+    }
+
+    .projects .one-project{
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     /*==== Contact ====*/
@@ -85,6 +103,11 @@
         font: 16px/19px Lato, Tahoma, sans-serif;
     }
 
+    .container{
+        background-image: none;
+        min-height: 80vh;
+    }
+
 /*=== section-header ===*/
 
     .section-header{
@@ -92,7 +115,7 @@
         padding: 15px;
     }
     .section-header .h-section{
-        font-size: 30px;
+        font-size: 25px;
     }
 
 /*=== section-content ===*/
@@ -114,6 +137,11 @@
 
 /*==== Header ====*/
 
+    .main-header{
+        min-height: 80vh;
+        background-image: none;
+    }
+
     .main-header .header-info{
         padding: 0;
         display: block;
@@ -129,6 +157,15 @@
         margin: 10px 0;
     }
 
+    .main-header .header-info .header-content p{
+        margin: 50px 0;
+    }
+
+    .main-header .header-info .img{
+        width: 300px;
+        height: auto;
+    }
+
     .main-header .header-info .header-img{
         width: 100%;
     }
@@ -138,13 +175,25 @@
     }
 
     .scroll{
-        display: none;
+        visibility: hidden;
     }
 
 /*==== Education ====*/
 
     .tech-col{
         display: block;
+    }
+
+    /*==== Portfolio ====*/
+
+    .projects{
+        display: block;
+    }
+
+    .projects .one-project{
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
 /*==== Contact ====*/

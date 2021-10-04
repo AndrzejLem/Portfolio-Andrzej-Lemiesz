@@ -14,7 +14,7 @@
     <!--============= HEADER =============-->
 
 
-    <header class="main-header">
+    <header class="main-header" id="start">
         <div class="overlay"></div>
         <div class="menu-btn">
             <div class="btn-line"></div>
@@ -26,17 +26,17 @@
         <nav class="menu">
             <ul class="menu-nav">
                 <li class="nav-item">
-                    <a href="#" class="nav-link">Witaj</a></li>
+                    <a href="#start" class="nav-link">Witaj</a></li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">O mnie</a></li>
+                    <a class="nav-link" href="#about">O mnie</a></li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Edukacja</a></li>
+                    <a class="nav-link" href="#edu">Edukacja</a></li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Portfolio</a></li>
+                    <a class="nav-link" href="#port">Portfolio</a></li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Zainteresowania</a></li>
+                    <a class="nav-link" href="#hobby">Zainteresowania</a></li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Kontakt</a></li>
+                    <a class="nav-link" href="#contact">Kontakt</a></li>
             </ul>
         </nav>
 
@@ -47,11 +47,11 @@
             </div>
             <div class="header-img" data-aos="fade-left"
             data-aos-duration="1000">
-                <img src="IMG/andrzejsquare.jpg" alt="" style="width: 400px; height: auto;">
+                <img class="img" src="IMG/andrzejsquare.jpg" alt="">
             </div>
         </div>
         <div class="scroll" data-aos="fade-right" data-aos-duration="1000">
-            <p>Przewiń w dół</p>
+            Przewiń w dół
         </div>
     </div>
     </header>
@@ -64,7 +64,7 @@
 
     <!--============= ABOUT ME =============-->
 
-        <section class="container">
+        <section class="container" id="about">
             <div class="overlay"></div>
             <header class="section-header" data-aos="fade-up" data-aos-duration="1000">
                 <h2 class="h-section">O mnie</h2>
@@ -81,7 +81,7 @@
 
     <!--============= EDUCATION =============-->
 
-        <section class="container">
+        <section class="container" id="edu">
             <div class="overlay"></div>
             <header class="section-header" data-aos="fade-up" data-aos-duration="1000">
                 <h2 class="h-section">Edukacja</h2>
@@ -114,7 +114,7 @@
 
         <!--============= PORTFOLIO =============-->
 
-        <section class="container">
+        <section class="container" id="port">
             <div class="overlay"></div>
             <header class="section-header" data-aos="fade-up" data-aos-duration="1000">
                 <h2 class="h-section">Portfolio</h2>
@@ -126,16 +126,29 @@
                 <h3>Moje projekty...</h3>
                     <div class="projects" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
                         <div class="one-project">
-                            Hulu Clone Website
-                            <img src="" alt="">
-                        </div>   
+                            <p class="gh-project">Hulu Clone Website</p>
+                            <img src="IMG/Hulu-clone.png" alt="" width="250px">
+                            <p class="gh-link"><a href="https://github.com/AndrzejLem/Hulu-Clone-Project---Learning" target="_blank">GitHub Link</a></p>
+                        </div>
+
+                        <div class="one-project">
+                            <p class="gh-project">Music Player</p>
+                            <img src="IMG/MP3-Player.png" alt="" width="250px">
+                            <p class="gh-link"><a href="https://github.com/AndrzejLem/Music-Player" target="_blank">GitHub Link</a></p>
+                        </div>
+
+                        <div class="one-project">
+                            <p class="gh-project">Acme Web Design</p>
+                            <img src="IMG/Acme.png" alt="" width="250px">
+                            <p class="gh-link"><a href="https://github.com/AndrzejLem/Acme-Web-design---Learning" target="_blank">GitHub Link</a></p>
+                        </div>
                     </div>
             </div>
         </section>
 
         <!--============= HOBBY =============-->
 
-        <section class="container">
+        <section class="container" id="hobby">
             <div class="overlay"></div>
             <header class="section-header" data-aos="fade-up" data-aos-duration="1000">
                 <h2 class="h-section">Zainteresowania</h2>
@@ -152,7 +165,7 @@
 
         <!--============= CONTACT =============-->
 
-        <section class="container">
+        <section class="container" id="contact">
             <div class="overlay"></div>
             <header class="section-header" data-aos="fade-up" data-aos-duration="1000">
                 <h2 class="h-section">Kontakt</h2>
