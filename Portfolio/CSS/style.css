@@ -316,6 +316,7 @@ textarea{
     height: 250px;
     font-size: 18px;
     margin-top: 50px;
+    padding: 10px;
 }
 
 /*============= FOOTER =============*/
@@ -324,4 +325,27 @@ textarea{
     text-align: center;
     border-top: 1px solid #fff;
     padding: 20px 0;
+}
+
+/*============= FORM =============*/
+
+form input[type="text"].error,
+form input[type="email"].error,
+textarea.error {
+    border: 2px solid #FFA9C7;
+}
+
+ul.errors {
+    width: 600px;
+    padding: 20px;
+    margin: 10px auto;
+    background-color: #FFD4DE;
+    border-radius: 15px;
+
+}
+
+ul.errors li {
+    list-style: none;
+    line-height: 30px;
+    color: #F70053;
 }
