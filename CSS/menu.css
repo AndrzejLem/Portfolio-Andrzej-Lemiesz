@@ -1,0 +1,108 @@
+@charset "utf-8";
+/*========= Menu button =========*/
+
+.main-header .menu-btn{
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    right: 0;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: all 0.5s ease-out;
+}
+
+.main-header .menu-btn .btn-line{
+    z-index: 3;
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 5px 0;
+    transition: all 0.5s ease-out;
+}
+
+/*========= Rotate Into X Menu Lines =========*/
+
+.main-header .close{
+    transform: rotate(180deg);
+}
+
+    /* Line 1 - Rotate */
+.main-header .close .btn-line:nth-child(1){
+    transform: rotate(45deg) translate(5px, 5px);
+}
+
+    /* Line 2 - Hide */
+.main-header .close .btn-line:nth-child(2){
+    opacity: 0;
+}
+
+    /* Line 3 - Rotate */
+.main-header .close .btn-line:nth-child(3){
+    transform: rotate(-45deg) translate(7px, -6px);
+}
+
+/*========= Menu Overlay =========*/
+
+.main-header .menu{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    opacity: 0.8;
+    visibility: hidden;
+}
+
+.main-header .menu .show{
+    visibility: visible;
+}
+
+.main-header .menu .menu-nav{
+    position: fixed;
+    top: 0px;
+    right: 0px;
+
+    height: 100vh;
+    float: right;
+    padding: 200px 40px 0 40px;
+    overflow: hidden;
+    background: #555;
+    transform: translate3d(0, -100%, 0);
+    transition: all 0.5s ease-out;
+    z-index: 3;
+}
+
+/*========= Slide in from top =========*/
+.main-header .menu .show{
+    transform: translate3d(0, 0, 0);
+
+}
+
+.main-header .menu .menu-nav .nav-item{
+    transform: translate3d(600px, 0, 0);
+    transition: all 0.5s ease-out;
+}
+
+.main-header .menu .menu-nav .show {
+    transform: translate3d(0, 0, 0);
+}
+
+/*========= Delay nav item slide =========*/
+
+.main-header .menu .menu-nav .nav-item:nth-child(1){
+    transition-delay: 0.1s;
+}
+.main-header .menu .menu-nav .nav-item:nth-child(2){
+    transition-delay: 0.2s;
+}
+.main-header .menu .menu-nav .nav-item:nth-child(3){
+    transition-delay: 0.3s;
+}
+.main-header .menu .menu-nav .nav-item:nth-child(4){
+    transition-delay: 0.4s;
+}
+.main-header .menu .menu-nav .nav-item:nth-child(5){
+    transition-delay: 0.5s;
+}
+.main-header .menu .menu-nav .nav-item:nth-child(6){
+    transition-delay: 0.6s;
+}

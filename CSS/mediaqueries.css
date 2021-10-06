@@ -1,0 +1,242 @@
+@charset "utf-8";
+
+/*================= MEDIA QUERIES =================*/
+
+
+
+@media(min-width: 791px) and (max-width: 1200px){
+
+    /*==== General ====*/
+
+    body{
+        width: 100%;
+        font: 16px/19px Lato, Tahoma, sans-serif;
+    }
+
+    .main-header .header-info .header-content h1{
+        font-size: 30px;
+        margin: 10px 0;
+    }
+
+    .scroll{
+        visibility: hidden;
+    }
+
+    /*=== section-header ===*/
+
+    .section-header{
+        margin: 40px 0;
+        padding: 15px;
+    }
+    .section-header .h-section{
+        font-size: 30px;
+    }
+
+    /*==== Education ====*/
+
+    .tech-col{
+        display: block;
+    }
+
+    /*==== Portfolio ====*/
+
+    .projects{
+        display: block;
+    }
+
+    .projects .one-project{
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /*==== Contact ====*/
+
+    .contact-info{
+        display: block;
+        justify-content: center;
+    }
+
+    .contact-info div{
+        margin: 15px auto;
+    }
+    .my-form .form-input{
+        display: block;
+    }
+
+    input[type=text],
+    input[type=email]{
+        margin: 20px 0;
+    }
+
+    #message{
+        margin-top: 20px;
+    }
+
+    textarea{
+        width: 80%;
+        height: 150px;
+        font-size: 16px;
+    }
+
+    /*==== MENU ====*/
+
+    .main-header .menu .menu-nav .nav-item .nav-link{
+        font-size: 18px;
+        text-transform: uppercase;
+        padding: 5px 0;
+    }
+
+    .main-header .menu .show{
+
+        padding-top: 5px;
+    }
+
+}
+
+@media(max-width: 900px){
+
+/*==== General ====*/
+
+    body{
+        width: 100%;
+        font: 16px/19px Lato, Tahoma, sans-serif;
+    }
+
+    .container{
+        background-image: none;
+        min-height: 80vh;
+    }
+
+/*=== section-header ===*/
+
+    .section-header{
+        margin: 40px 0;
+        padding: 15px;
+    }
+    .section-header .h-section{
+        font-size: 25px;
+    }
+
+/*=== section-content ===*/
+
+    .content{
+        margin: 0;
+    }
+
+    .content p{
+        margin: 10px 0 10px 0;
+        font-size: 16px;
+    }
+
+    .content h3{
+        padding: 10px;
+        margin: 20px 0 10px 0;
+        font-size: 25px;
+    }
+
+/*==== Header ====*/
+
+    .main-header{
+        min-height: 80vh;
+        background-image: none;
+    }
+
+    .main-header .header-info{
+        padding: 0;
+        display: block;
+    }
+
+    .main-header .header-info .header-content{
+        width: 100%;
+        margin: 0;
+    }
+
+    .main-header .header-info .header-content h1{
+        font-size: 30px;
+        margin: 10px 0;
+    }
+
+    .main-header .header-info .header-content p{
+        margin: 50px 0;
+    }
+
+    .main-header .header-info .img{
+        width: 300px;
+        height: auto;
+    }
+
+    .main-header .header-info .header-img{
+        width: 100%;
+    }
+
+    .main-header .header-info .header-img img{
+        margin: 0;
+    }
+
+    .scroll{
+        visibility: hidden;
+    }
+
+/*==== Education ====*/
+
+    .tech-col{
+        display: block;
+    }
+
+    /*==== Portfolio ====*/
+
+    .projects{
+        display: block;
+    }
+
+    .projects .one-project{
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+/*==== Contact ====*/
+
+    .contact-info{
+        display: block;
+        justify-content: center;
+    }
+
+    .contact-info div{
+        margin: 15px auto;
+    }
+
+    .my-form .form-input{
+        display: block;
+    }
+
+    input[type=text],
+    input[type=email]{
+        margin: 20px 0;
+    }
+
+    #message{
+        margin-top: 20px;
+    }
+
+    textarea{
+        width: 80%;
+        height: 150px;
+        font-size: 16px;
+    }
+
+    /*==== MENU ====*/
+
+     .main-header .menu .menu-nav .nav-item .nav-link{
+        font-size: 18px;
+         text-transform: uppercase;
+         padding: 5px 0;
+     }
+    
+    .main-header .menu .show{
+        padding-top: 5px;
+    }
+
+
+}
