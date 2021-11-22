@@ -201,6 +201,7 @@
     .contact-info{
         display: block;
         justify-content: center;
+        font-size: 15px;
     }
 
     .contact-info div{
